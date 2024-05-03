@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    width: 100%;
+    height: 460px;
+    }
+
+/* seções do site */
+.menu{
+    height: 105px;
+    width: 100%;
+    background-color: #003777;
+}
+.principal{
+    height: auto;
+    width: 100%;
+    background-color: #c6e1ff;
+    display: flex;
+    flex-direction: column;
+}
+.criacao{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+.beneficios{
+    height: auto;  
+    width: 100%;
+    background-color: #c6e1ff;
+    display: flex;
+    flex-direction: column;
+}
+.rodape{
+    height: auto;
+    width: 100%;
+    background-color: #003777;
+}
+.bloco-principal{
+    height: 450px;
+    width: auto;
+    float: left;
+    margin-left: 18%;
+}
+
+/* detalhes do site */
+
+/* imagens */
+#icon{
+    height: 65px;
+    width: 115px;
+    margin-top: 20px;
+    margin-left: 40px;
+    flex-direction: row;
+    cursor: pointer;
+}
+#img-resumo{
+    height: 350px;
+    width: 500px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#img-linguagem{
+    height: 35%;
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* textos */
+
+#resumo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003777;
+    margin-top: 5%;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 23px;
+    color: #003777;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+#escola{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#beneficios-resumo{
+    color: #003777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+
+botões e links
+button{
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    width: 30%;
+    height: 30px;
+    margin-top: 10px;
+    color: #fff;
+    background: #003777;
+}
+button:hover{
+    background: #071d38;
+}
+.link{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding-right: 75px;
+    margin-top: 2.5%;
+}
+
+
+
